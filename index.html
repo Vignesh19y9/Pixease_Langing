@@ -51,14 +51,18 @@ URI     : https://colorlib.com
         <div class="row">
           <div class="col-md-12">
             <nav class="navbar navbar-dark navbar-expand-lg">
-              <a class="navbar-brand" href="index.html"
-                ><img
-                  width="50"
-                  height="50"
-                  src="images/PixEaseLogo.png"
-                  class="img-fluid"
-                  alt="logo"
-              /></a>
+              <div style="height: 60px; display: table">
+                <div style="display: table-cell; vertical-align: middle">
+                  <img
+                    width="50"
+                    height="50"
+                    src="images/PixEaseLogo.png"
+                    class="img-fluid"
+                    alt="logo"
+                  />
+                  <p style="display: inline-block">PixEase</p>
+                </div>
+              </div>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -76,7 +80,7 @@ URI     : https://colorlib.com
                     <a class="nav-link active" href="#home"
                       >HOME <span class="sr-only">(current)</span></a
                     >
-                  </li>
+                    <!-- </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#features">FEATURES</a>
                   </li>
@@ -88,10 +92,12 @@ URI     : https://colorlib.com
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">CONTACT</a>
+                  </li> -->
                   </li>
+
                   <li class="nav-item">
                     <a
-                      href="#"
+                      href="#download"
                       class="btn btn-outline-light my-3 my-sm-0 ml-lg-3"
                       >Download</a
                     >
@@ -375,7 +381,9 @@ URI     : https://colorlib.com
     </div> -->
     <!-- // end .section -->
 
-    <div class="section">
+    <!-- // end .row starting -->
+
+    <!-- <div class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -388,7 +396,7 @@ URI     : https://colorlib.com
             </div>
           </div>
           <div class="col-md-9 d-flex flex-column">
-            <video controls style="max-width: 100%">
+            <video controls style="max-width: 100%" autoplay muted loop>
               <source src="images/My Movie 2.mp4" type="video/mp4" />
             </video>
           </div>
@@ -410,7 +418,7 @@ URI     : https://colorlib.com
           </div>
 
           <div class="col-md-8 d-flex flex-column">
-            <video controls style="max-width: 100%">
+            <video controls style="max-width: 100%" autoplay muted loop>
               <source src="images/My Movie 2.mp4" type="video/mp4" />
             </video>
           </div>
@@ -432,13 +440,13 @@ URI     : https://colorlib.com
           </div>
 
           <div class="col-md-8 d-flex flex-column align-items-center">
-            <video controls style="max-width: 100%">
+            <video controls style="max-width: 100%" autoplay muted loop>
               <source src="images/My Movie 2.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="section">
       <div class="container">
@@ -453,8 +461,8 @@ URI     : https://colorlib.com
             </div>
           </div>
           <div class="row-md-9 d-flex">
-            <video controls style="max-width: 100%">
-              <source src="images/My Movie 2.mp4" type="video/mp4" />
+            <video controls style="max-width: 100%" autoplay muted loop>
+              <source src="videos/My Movie 2.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -686,15 +694,54 @@ URI     : https://colorlib.com
     </div>
     // end .section -->
 
-    <div class="section bg-gradient">
+    <div class="section bg-gradient" id="download">
       <div class="container">
         <div class="call-to-action">
           <div class="box-icon">
-            <span class="ti-mobile gradient-fill ti-3x"></span>
+            <!-- <span class="ti-mobile gradient-fill ti-3x"></span> -->
+            <img
+              width="50"
+              height="50"
+              src="images/PixEaseLogo.png"
+              class="img-fluid"
+              alt="logo"
+            />
           </div>
-          <h2>Download Anywhere</h2>
+          <h2>Join the waitinglist</h2>
+          <p class="tagline">We will only send you product releases.</p>
+          <div class="my-4">
+            <a href="https://pixease.ck.page/e5b358" class="btn btn-light"
+              ><img src="images/appleicon.png" alt="icon" /> Join Now</a
+            >
+            <!-- <a href="#" class="btn btn-light"
+              ><img src="images/playicon.png" alt="icon" /> Google play</a
+            > -->
+          </div>
+          <p class="text-primary">
+            <small
+              ><i>*Works on macOS 12.0+, Catalina Ventura and above. </i></small
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- // end .section -->
+
+    <!-- <div class="section bg-gradient" id="download">
+      <div class="container">
+        <div class="call-to-action">
+          <div class="box-icon">
+            <img
+              width="50"
+              height="50"
+              src="images/PixEaseLogo.png"
+              class="img-fluid"
+              alt="logo"
+            />
+          </div>
+          <h2>Download From AppStore</h2>
           <p class="tagline">
-            Available for all major mobile and desktop platforms. Rapidiously
+            Available for all major mac versions above 12.0. Rapidiously
             visualize optimal ROI rather than enterprise-wide methods of
             empowerment.
           </p>
@@ -702,18 +749,15 @@ URI     : https://colorlib.com
             <a href="#" class="btn btn-light"
               ><img src="images/appleicon.png" alt="icon" /> App Store</a
             >
-            <a href="#" class="btn btn-light"
-              ><img src="images/playicon.png" alt="icon" /> Google play</a
-            >
           </div>
           <p class="text-primary">
             <small
-              ><i>*Works on iOS 10.0.5+, Android Kitkat and above. </i></small
+              ><i>*Works on macOS 12.0+, Catalina Ventura and above. </i></small
             >
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- // end .section -->
 
     <div class="light-bg py-5" id="contact">
