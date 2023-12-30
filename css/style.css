@@ -664,3 +664,9 @@ video {
     margin-top: 2rem;
   }
 }
+
+.gradient-text {
+  background: linear-gradient(to bottom, #9b6ef6, #bb99ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
