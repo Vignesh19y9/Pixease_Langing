@@ -670,3 +670,8 @@ video {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+}
